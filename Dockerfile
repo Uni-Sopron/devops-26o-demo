@@ -1,7 +1,7 @@
 # Step 1: build
 FROM node:lts-alpine AS builder
 WORKDIR /app
-RUN corepack enable yarn
+RUN corepack enable
 COPY package.json yarn.lock ./
 RUN yarn install --frozen-lockfile
 
