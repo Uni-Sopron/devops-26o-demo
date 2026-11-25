@@ -1,5 +1,5 @@
 # Step 1: build
-FROM node:lts-alpine AS builder
+FROM node:24-alpine AS builder
 WORKDIR /app
 RUN corepack enable
 COPY package.json yarn.lock ./
