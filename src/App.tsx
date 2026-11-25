@@ -2,6 +2,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import { Counter } from './components/Counter'
+import NewComponent from './components/NewComponent'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
+      <NewComponent />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
