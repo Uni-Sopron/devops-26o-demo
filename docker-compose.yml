@@ -1,0 +1,10 @@
+services:
+  web-app:
+    container_name: webapp
+    image: szaki/devops-26-demo:latest
+    networks:
+      - nginx-proxy-network
+
+networks:
+  nginx-proxy-network:
+    external: true
